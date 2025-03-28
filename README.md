@@ -50,6 +50,7 @@ For inference using the Streamlit UI, a low-resolution image (JPG, JPEG, or PNG)
     ```bash
     http://localhost:8501
     ```
+    ![Project Overview](assets/Streamlit.png)
 
 ## How to Run
 
