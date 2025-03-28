@@ -112,4 +112,4 @@ The original SRCNN architecture (referenced in original_SRCNN_Model) is based on
 
     Dong, C., Loy, C.C., He, K., & Tang, X. (2014). Image Super-Resolution Using Deep Convolutional Networks. IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
 
-This research project builds upon that work with significant modifications for non-linear luminance enhancement and color fusion and post-processing improvements.
+This research project builds upon that work with significant modifications for non-linear luminance enhancement, color fusion and post-processing improvements.
