@@ -10,7 +10,6 @@ import numpy as np
 from keras.preprocessing.image import load_img, img_to_array
 from skimage.transform import resize
 from skimage.color import rgb2ycbcr
-import os
 
 def preprocess_image(image_path: str, target_shape=(128, 128)):
     """
