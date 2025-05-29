@@ -8,6 +8,9 @@ This repository includes all the necessary scripts and a Docker-based setup for 
 
 ![Project Overview](assets/Result.png)
 
+> **Repository Move Notice**
+>
+> This repository hosts the current, active development of the project and captures all the latest updates. It was migrated from a private repository to streamline organization and improve long-term maintainability.
 
 ## File Requirements
 
