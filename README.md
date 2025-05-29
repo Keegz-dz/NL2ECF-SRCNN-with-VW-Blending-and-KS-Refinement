@@ -8,10 +8,6 @@ This repository includes all the necessary scripts and a Docker-based setup for 
 
 ![Project Overview](assets/Result.png)
 
-> **Repository Move Notice**
->
-> This repository hosts the current, active development of the project and captures all the latest updates. It was migrated from a private repository to streamline organization and improve long-term maintainability.
-
 ## File Requirements
 
 For training and evaluation, the following data files are expected:
@@ -117,3 +113,7 @@ The original SRCNN architecture (referenced in original_SRCNN_Model) is based on
     Dong, C., Loy, C.C., He, K., & Tang, X. (2014). Image Super-Resolution Using Deep Convolutional Networks. IEEE Conference on Computer Vision and Pattern Recognition (CVPR).
 
 This research project builds upon that work with significant modifications for non-linear luminance enhancement, color fusion and post-processing improvements.
+
+## Repository Move Notice
+>
+> This repository hosts the current, active development of the project and captures all the latest updates. It was migrated from a private repository to streamline organization and improve long-term maintainability.
