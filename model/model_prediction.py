@@ -11,7 +11,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-from model.model_architecture import NL2ECF_SRCNN_model, original_SRCNN_Model
+from model.model_architecture import NL2ECF_SRCNN_model
 
 
 def modcrop(img, scale):
