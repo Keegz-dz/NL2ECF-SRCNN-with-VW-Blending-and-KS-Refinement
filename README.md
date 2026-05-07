@@ -273,7 +273,7 @@ Produces `logs/processed_data.npz` and `data/hr_lr_pairs.json`.
 
 ### Training
 
-Run from the project root. Training defaults to 10 epochs with a batch size of 16 and a 20 % validation split.
+Run from the project root. Training defaults to 10 epochs with a batch size of 16 and a 20 % validation split. Model training complete and saved as `logs/nl2ecf_srcnn_model_v1.h5`.
 
 ```bash
 python -c "from model.model_training import main; main(model_type='nl2ecf')"
@@ -285,9 +285,8 @@ Training NL2ECF-SRCNN model...
 Data path: logs/processed_data.npz
 Model save path: logs/nl2ecf_srcnn_model_v1.h5
 Epoch 1/10
-...
-Model training complete and saved as logs/nl2ecf_srcnn_model_v1.h5.
 ```
+
 
 A training and validation loss curve is displayed on completion. To also train the original SRCNN baseline for comparison:
 
