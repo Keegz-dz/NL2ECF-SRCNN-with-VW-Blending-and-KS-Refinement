@@ -14,4 +14,4 @@ venv/
 env/
 
 data
-logs/processed_data.npz
+logs
