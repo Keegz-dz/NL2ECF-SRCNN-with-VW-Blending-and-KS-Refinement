@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/github/last-commit/Keegz-dz/NL2ECF-SRCNN-with-VW-Blending-and-KS-Refinement?style=for-the-badge&color=black&logo=github&logoColor=white" />
   </a>
   <a href="./LICENSE">
-    <img src="https://img.shields.io/badge/Licence_MIT-EE4C2C?style=for-the-badge&logo=open-source-initiative&logoColor=white" />
+    <img src="https://img.shields.io/badge/Licence_MIT-1F2937?style=for-the-badge&logo=open-source-initiative&logoColor=white" />
   </a>
   <a href="https://www.tensorflow.org/">
     <img src="https://img.shields.io/badge/TensorFlow_2.19.0-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
