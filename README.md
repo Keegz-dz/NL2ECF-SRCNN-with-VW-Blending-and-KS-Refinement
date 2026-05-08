@@ -26,7 +26,7 @@
 
 <!-- Animated demo GIF which conveys the project's value instantly. -->
 <p align="center">
-  <img src="assets/demo_nl2ecf.gif" alt="{{PROJECT_TITLE}} Demo" width="800">
+  <img src="assets/demo_nl2ecf.gif" alt="Demo" width="800">
 </p>
 
 <!-- ============================ TL;DR ============================ -->
@@ -75,7 +75,7 @@ with both models trained under identical experimental conditions on the same dat
 </div>
 
 <p align="center">
-  <sub>Higher values indicate better reconstruction quality.</sub>
+  <sub>The baseline was trained from scratch on the same dataset under controlled experimental conditions, as such, the reported metrics are not directly comparable to published Set5 or Set14 benchmark results. Higher values indicate better reconstruction quality.</sub>
 </p>
 
 The enhanced architecture demonstrates substantially improved reconstruction fidelity,
