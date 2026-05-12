@@ -195,6 +195,8 @@ Run the application locally with a Python virtual environment:
     ```
 4. Open your browser and navigate to [http://localhost:8501](http://localhost:8501).
 
+   ![Project Overview](assets/Streamlit.png)
+
 <!-- ============================ STRUCTURE ============================ -->
 ## Project Structure
 
