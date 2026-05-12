@@ -73,7 +73,7 @@ dependencies:
       - narwhals==1.32.0
       - networkx==3.4.2
       - numpy==2.0.2
-      - opencv-python-headless==4.12.0.88
+      - opencv-python==4.12.0.88
       - opt-einsum==3.4.0
       - optree==0.16.0
       - packaging==24.2

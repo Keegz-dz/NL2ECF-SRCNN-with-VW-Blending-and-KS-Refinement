@@ -177,22 +177,8 @@ This amplifies edge contrast by subtracting a blurred neighbourhood from the cen
 
 ### Quick start
 
-The fastest way to run the app requires only Docker:
+Run the application locally with a Python virtual environment:
 
-1. Clone the repository and Navigate to root directory.
-    ```bash
-    git clone https://github.com/Keegz-dz/NL2ECF-SRCNN-with-VW-Blending-and-KS-Refinement.git
-    cd NL2ECF-SRCNN-with-VW-Blending-and-KS-Refinement
-    ```
-2. Run the following command to build the Docker image and start the application:
-    ```bash
-    docker compose up --build
-    ```
-3. Open your browser and navigate to [http://localhost:8501](http://localhost:8501).
-
-    ![Project Overview](assets/Streamlit.png)
-
-**Run the application locally with a Python virtual environment**
 1. Create and activate a virtual environment:
     ```bash
     python -m venv .venv
