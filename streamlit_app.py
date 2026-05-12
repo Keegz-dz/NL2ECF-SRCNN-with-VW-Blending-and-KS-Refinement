@@ -121,7 +121,7 @@ if uploaded_file is not None:
         
         # Show a preview in an expander
         with st.expander("Preview Uploaded Image"):
-            st.image(cv2.cvtColor(image_for_display, cv2.COLOR_BGR2RGB), caption="Original Low-Resolution Image", use_container_width=True)
+            st.image(cv2.cvtColor(image_for_display, cv2.COLOR_BGR2RGB), caption="Original Low-Resolution Image", width='stretch')
         
         # --- Run Super Resolution ---
         if st.button("Enhance Image"):
@@ -141,11 +141,11 @@ if uploaded_file is not None:
             with col1:
                 st.image(cv2.cvtColor(image_for_display, cv2.COLOR_BGR2RGB), 
                          caption=f"Low-Resolution Input\nSharpness: {sharpness_lr:.2f}", 
-                         use_container_width=True)
+                         width='stretch')
             with col2:
                 st.image(cv2.cvtColor(output_for_display, cv2.COLOR_BGR2RGB), 
                          caption=f"Enhanced Output\nSharpness: {sharpness_sr:.2f}", 
-                         use_container_width=True)
+                         width='stretch')
             
             st.success("Image enhancement complete!")
             st.markdown(
