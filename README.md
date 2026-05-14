@@ -234,7 +234,6 @@ NL2ECF-SRCNN-with-VW-Blending-and-KS-Refinement/
 ├── assets/                         # Images used in README
 │
 ├── streamlit_app.py                # Browser-based inference UI
-├── docker-compose.yml              # Runs the Streamlit app on port 8501
 ├── requirements.txt                              
 └── environment.yml                
 ```
