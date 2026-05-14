@@ -197,6 +197,16 @@ Run the application locally with a Python virtual environment:
 
    ![Project Overview](assets/Streamlit.png)
 
+### Try the demo
+
+Two sample low-resolution images from the [Set5](https://github.com/jbhuang0604/SelfExSR) super-resolution benchmark are included in [`examples/`](examples/):
+
+- `baby.png` (128 × 128) — portrait
+- `butterfly.png` (64 × 64) — fine-detail texture
+
+
+Drag either image into the app's upload area to see the model in action.
+
 <!-- ============================ STRUCTURE ============================ -->
 ## Project Structure
 
