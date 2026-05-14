@@ -172,7 +172,6 @@ This amplifies edge contrast by subtracting a blurred neighbourhood from the cen
 
 - Python 3.10
 - 8 GB RAM (16 GB recommended for training)
-- Docker and Docker Compose (if using the Docker path)
 - An NVIDIA GPU with CUDA is optional but recommended for training; CPU is sufficient for inference
 
 ### Quick start
@@ -227,16 +226,14 @@ NL2ECF-SRCNN-with-VW-Blending-and-KS-Refinement/
 │   ├── low_resolution_images/      # Degraded LR counterparts produced by degradation_pipeline.py
 │   └── hr_lr_pairs.json            # Manifest mapping each HR image to its LR variants
 │
-├── logs/                           # Training artefacts (not tracked in git)
-│   ├── nl2ecf_srcnn_model.h5       
-│   ├── original_srcnn_model.h5     # Trained original SRCNN weights (baseline)
-│   └── processed_data.npz          # Packed and normalised patch pairs ready for training
+├── logs/                           # Training artefacts
+│   ├── nl2ecf_srcnn_model.h5       # Trained NL2ECF-SRCNN weights (5 MB, tracked — demo works out of the box)
+│   ├── original_srcnn_model.h5     # Trained original SRCNN weights (not tracked; produced by training)
+│   └── processed_data.npz          # Packed and normalised patch pairs (not tracked; produced by data pipeline)
 │
 ├── assets/                         # Images used in README
 │
 ├── streamlit_app.py                # Browser-based inference UI
-├── Dockerfile                      # Container image definition (python:3.10-slim)
-├── docker-compose.yml              # Runs the Streamlit app on port 8501
 ├── requirements.txt                              
 └── environment.yml                
 ```
