@@ -172,7 +172,6 @@ This amplifies edge contrast by subtracting a blurred neighbourhood from the cen
 
 - Python 3.10
 - 8 GB RAM (16 GB recommended for training)
-- Docker and Docker Compose (if using the Docker path)
 - An NVIDIA GPU with CUDA is optional but recommended for training; CPU is sufficient for inference
 
 ### Quick start
@@ -235,7 +234,6 @@ NL2ECF-SRCNN-with-VW-Blending-and-KS-Refinement/
 ├── assets/                         # Images used in README
 │
 ├── streamlit_app.py                # Browser-based inference UI
-├── Dockerfile                      # Container image definition (python:3.10-slim)
 ├── docker-compose.yml              # Runs the Streamlit app on port 8501
 ├── requirements.txt                              
 └── environment.yml                
